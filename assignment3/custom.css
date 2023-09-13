@@ -1,0 +1,38 @@
+h1 {
+    color: yellow; background-color: black;
+}
+
+h2 {
+    color: red; background-color: gray;
+}
+h3 {
+    color: pink; background-color: purple;
+}
+a {
+    color: #ff0000;
+  }
+  a:link {
+    color: #ff0000;
+  }
+  a:visited {
+    color: #00ff26;
+  }
+  a:hover {
+    color: #ffff00;
+  }
+
+  #p1 {
+    color: aquamarine; background-color: blue;
+  }
+  
+  .op {
+    color: aqua; background-color: blue;
+  }
+
+  #page1div {
+    color: black; background-color: #ff0000;
+  }
+
+  .span {
+    color: #ffff00; background-color: purple;
+  }
