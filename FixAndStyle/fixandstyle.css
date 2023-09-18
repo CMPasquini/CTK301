@@ -1,0 +1,49 @@
+a {
+    color: #00ff26;
+  }
+  a:link {
+    color: #00ff00;
+  }
+  a:visited {
+    color: #00ff00;
+  }
+  a:active {
+    color: #00ff44;
+  }
+  a:hover {
+    color: #ff0000;
+  }
+  a {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+
+
+  .makewhite {
+    color: white;
+    background-color: #6060ff;
+  }
+  .makeblue {
+    color: blue;
+  }
+  .blacknyellow {
+    color: black; background-color: yellow;
+  }
+  .makered {
+    color: #ff0000;
+  }
+  .highlightblue {
+    background-color: #6060ff;
+  }
+  .greennyellow {
+    color: yellow;
+    background-color: green;}
+  .highlightlime {
+    background-color: limegreen;
+  }
+  .highlightyellow {
+    background-color: yellow;
+  }
+ 
