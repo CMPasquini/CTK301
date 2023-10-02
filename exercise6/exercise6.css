@@ -1,0 +1,48 @@
+body { background-color: #999999; }
+
+#wrapper {
+  margin: 1em auto;
+  padding: 0;
+  width: 960px;
+  border: 1px solid #ff0000;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);}
+
+header {grid-column: span 12;
+background-color: red;}
+
+nav {grid-column: span 3;}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;}
+
+nav li {
+  width: 200px;}
+
+nav li a {
+  display: block;
+  background-color: red;
+  border: 1px solid black;
+  padding: 1em;
+  color: white;
+  text-decoration: none;}
+
+main {grid-column: span 6;}
+
+.mainimg {width: 240px;
+  float: left;
+  margin-right: 3px;
+  margin-bottom: 3px;}
+
+aside {grid-column: span 3;
+  background-color: blue;
+padding-left: 24px;
+padding-right: 24px;
+color: white}
+
+footer {background-color: red;
+  grid-column: span 12;}
+
