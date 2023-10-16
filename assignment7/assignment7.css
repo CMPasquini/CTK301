@@ -1,0 +1,89 @@
+header {background-color: blue;
+    grid-column: span 12;
+    background-image: linear-gradient(to bottom, blue, lightblue);
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 2px blue;}
+
+#wrapper {
+    margin: 1em auto;
+    padding: 0;
+    border: 3px solid blue;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);}
+
+main {
+    font-family: Georgia, 'Times New Roman', Times, serif;}
+    
+.blueback {background-color: lightblue;}
+
+aside {padding-left: 24px;
+    padding-right: 24px;
+    font-family: Helvetica, Arial, sans-serif;}
+
+.whiteback {background-color: white;}
+
+
+h1 {color: rgb(50, 202, 253);}
+h2 {color: blue;
+    border-bottom: 3px solid blue;
+    margin-left: 10px;
+    margin-right: 10px;}
+
+.firstimg {padding: 5px;
+    background-color: blue;
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;}
+
+.thirdimg {padding: 5px;
+    background-color: blue;
+    float: right;
+    margin-left: 5px;
+    margin-bottom: 5px;}
+
+.thirdpageimgs {width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;}
+
+nav li {
+    display: inline-block;
+    padding: 0;
+    width: 250px;
+    color:rgb(50, 202, 253);
+    grid-column: span 12;}
+
+nav li a {
+    color: rgb(50, 202, 253);
+    display: block;
+    border: 1px solid #000000;
+    padding: 10px;
+    background-image: linear-gradient(to bottom, blue, lightblue);}
+
+header a {color: rgb(50, 202, 253); text-decoration: none;}
+header a:link {color: rgb(50, 202, 253); text-decoration: none;}
+header a:visited {color: rgb(50, 202, 253); text-decoration: none;}
+header a:active {color: rgb(50, 202, 253); text-decoration: none;}
+header a:hover {color: purple; background-color: red; text-decoration: none;}
+
+aside a {color: red; text-decoration: none;}
+aside a:link {color: red; text-decoration: none;}
+aside a:visited {color: red; text-decoration: none;}
+aside a:active {color: red; text-decoration: none;}
+aside a:hover {color: purple; text-decoration: none;}
+
+main a {color: red; text-decoration: none;}
+main a:link {color: red; text-decoration: none;}
+main a:visited {color: red; text-decoration: none;}
+main a:active {color: red; text-decoration: none;}
+main a:hover {color: purple; text-decoration: none;}
+
+.justified {text-align: justify;
+    margin: 5px;}
+
+.page3main {grid-column: span 4;}
+
+footer {grid-column: span 12;
+    background-color: red;
+    border: solid 2px blue;}
