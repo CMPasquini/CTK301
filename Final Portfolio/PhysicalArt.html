@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Physical Art Page</title>
+		<link href="PortfolioMainPage.css" rel="stylesheet" type="text/css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+		<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" />
+	</head>
+
+	<body>
+	<div id="wrapper">
+	<header>
+	<h1>Physical Drawings and Paintings</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="PortfolioMainPage.html"> Main </a></li>
+			<li><a href="PhysicalArt.html"> Physical </a></li>
+			<li><a href="DigitalArt.html"> Digital </a></li>
+			<li><a href="AboutMe.html"> About Me </a></li>
+		</ul>
+	</nav>
+	<main class="roundedbox"> 
+		<h2 style="text-align: center;"> This is my physical works page! </h2>
+        <p style="text-align: center;"> I have a variety of works here including paintings, pencil drawings, pen drawings, and some of my favorite scetches.</p>
+	</main>
+
+	<div id="myCarousel" class="f-carousel">
+		<div class="f-carousel__slide"><img src="WormMonster.jpg"> 
+        <p class="roundedbox"> This is my first professional piece that I saved. The piece done on pen and paper, and it depicts a person spotting a large worm-like monster.</p></div>
+		<div class="f-carousel__slide"><img src="Naruto.jpg">
+        <p class="roundedbox"> This is one of my favorite sketches from my sketchbook. The medium is pen and paper, and it shows Naruto Uzumaki. </p></div>
+		<div class="f-carousel__slide"><img src="DeerSkull.jpg">
+        <p class="roundedbox"> This was for a school project in high school. This pencil and paper drawing was used to depict a creepy image of someone holding a deer skull up to their face. </p></div>
+        <div class="f-carousel__slide"><img src="Dancers.jpg">
+        <p class="roundedbox"> This is an acrylic painting that depicts human figures dancing. </p></div>
+		<div class="f-carousel__slide"><img src="YellowTint.jpg">
+        <p class="roundedbox"> This is another acrylic painting where colors are supposed to reflect emotions. This piece is depicting how I felt getting accepted to the college I planned to attend. </p></div>
+        <div class="f-carousel__slide"><img src="BlackFiguresColoredBack.jpg">
+        <p class="roundedbox"> This piece is made from water-paints, and it shows human figures floating around different colored areas. This was more of an attempt at abstract art. </p></div>
+		<div class="f-carousel__slide"><img src="BootsInRain.jpg">
+        <p class="roundedbox"> This piece was created using acrylic paints, and it depicts a pair of boots withstanding a thunderstorm. It was originally inspired by a poem that I can not find again. </p></div>
+	</div>
+
+	<script>
+		const container = document.getElementById("myCarousel");
+		const options = { infinite: false };
+		new Carousel(container, options);
+	</script>
+
+	<footer>
+		<h1>If you would like to check out more go here > <!-- <i class="bi bi-instagram"></i> -->
+		<a href="https://instagram.com/zero.art.creations" target="_blank" class="bi bi-instagram"></a>
+		</h1>
+	</footer>
+	</div>
+
+	<audio controls autobuffer autoplay>
+		<source src="beatsmash-broke.mp3" type="audio/mpeg">
+	</audio>
+
+	</body>
+</html>

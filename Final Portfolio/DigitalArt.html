@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Digital Art Page</title>
+		<link href="PortfolioMainPage.css" rel="stylesheet" type="text/css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+		<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" />
+	</head>
+
+	<body>
+	<div id="wrapper">
+	<header>
+	<h1>Digital Drawings</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="PortfolioMainPage.html"> Main </a></li>
+			<li><a href="PhysicalArt.html"> Physical </a></li>
+			<li><a href="DigitalArt.html"> Digital </a></li>
+			<li><a href="AboutMe.html"> About Me </a></li>
+		</ul>
+	</nav>
+	<main class="roundedbox"> 
+		<h2 style="text-align: center;"> This is my digital works page! </h2>
+        <p style="text-align: center;"> I am still working on improving my digital art skills, and not everything is posted here. However, here are some of the pieces I enjoy and think reflect my growth since trying a new art style. </p>
+	</main>
+
+	<div id="myCarousel" class="f-carousel">
+		<div class="f-carousel__slide"><img src="RoughSpidey.png"> 
+        <p class="roundedbox"> This is my first digital drawing. I understand it is rough, but I think it help shows my growth. It is supposed to be a drawing of Spider-Man's mask. </p></div>
+		<div class="f-carousel__slide"><img src="RoughDeadpool.jpg">
+        <p class="roundedbox"> This is my second digital drawing. This is not my best, but it was an improvement from my first piece. This is a drawing of Deadpool. </p></div>
+		<div class="f-carousel__slide"><img src="Ghastly.jpg">
+        <p class="roundedbox"> This was for a school project where I had to time a drawing for five minutes and stop at the time. The piece is a drawing of Ghastly from <i>Pokémon</i>. </p></div>
+        <div class="f-carousel__slide"><img src="ClosetMonster.jpg">
+        <p class="roundedbox"> This drawing features a monster I enjoy drawing. I do not have a name for it other than "Closet Monster," but I still enjoy drawing it in creepy scenarios. </p></div>
+		<div class="f-carousel__slide"><img src="SpiderMan+Gwen.jpg">
+        <p class="roundedbox"> This piece is supposed to be Spider-Man and Spider-Gwen swinging through the city. This piece is semi-unfinished because I chose to stop making it earlier than planned, but I got it to a stopping point where I was content with the piece. </p></div>
+        <div class="f-carousel__slide"><img src="Jack_Skellington (Digital Pg).jpg">
+        <p class="roundedbox"> This piece is one of my favorite digital drawings even though it looks simple. This is a drawing of Jack Skellington </p></div>
+		<div class="f-carousel__slide"><img src="RoseSkull.jpg">
+        <p class="roundedbox"> This piece was inspired by one of my friends who had asked me to draw him a skull with roses. </p></div>
+		<div class="f-carousel__slide"><img src="Aviation Gin Remix Art (Digital Pg).jpg">
+        <p class="roundedbox"> This piece was inspired by the commercial Ryan Reynolds made for his brand Aviation Gin. In the piece I replaced Reynolds with his character Deadpool. I believe this is my most well done digital work. </p></div>
+	</div>
+
+	<script>
+		const container = document.getElementById("myCarousel");
+		const options = { infinite: false };
+		new Carousel(container, options);
+	</script>
+
+	<footer>
+		<h1>If you would like to check out more go here > <!--<i class="bi bi-instagram"></i>-->
+		<a href="https://instagram.com/zero.art.creations" target="_blank" class="bi bi-instagram"></a>
+		</h1>
+	</footer>
+	</div>
+	
+	<audio controls autobuffer autoplay>
+		<source src="beatsmash-broke.mp3" type="audio/mpeg">
+	</audio>
+
+	</body>
+</html>
